@@ -39,6 +39,7 @@ Save this as `makefile` in your directory.
 To execute this, simply use 
 `go-make` in the command prompt in your working directory 
 
+
 You will see the following output: 
 ```
 echo I am a local variable overriding a global variable
@@ -49,6 +50,21 @@ echo I am a global variable
 
 Make finished
 ```
+
+## Output formatting 
+The output for go-make is formatted in the following way: 
+```
+Command 1 
+	Command 1 Output 
+.
+.
+.
+Command n 
+	Command n Output 
+
+Make Finished 
+```
+
 
 ## Command Line Parameters 
 Go-make currently supports two command line arguments: 
