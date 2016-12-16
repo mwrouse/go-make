@@ -11,6 +11,7 @@ Your make file can have:
 * Multiple sections, specified in any order that can call eachother 
 * Global scoped and local scoped variables (case insensitive)
 * Comments (no inline comments!)
+* $(DIR) variable by default set to the working directory
 
 Comming Soon: 
 * Setting variables in command line arguments 
