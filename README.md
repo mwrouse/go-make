@@ -10,10 +10,11 @@ To use download [dist/go-make.exe](dist/go-make.exe) and save it anywhere on you
 Your make file can have: 
 * Multiple sections, specified in any order that can call eachother 
 * Global scoped and local scoped variables 
-* Comments 
+* Comments (no inline comments!)
 
 Comming Soon: 
 * Setting variables in command line arguments 
+* Inline comments 
 
 
 
