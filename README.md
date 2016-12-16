@@ -9,7 +9,7 @@ To use download [dist/go-make.exe](dist/go-make.exe) and save it anywhere on you
 # Basic Features 
 Your make file can have: 
 * Multiple sections, specified in any order that can call eachother 
-* Global scoped and local scoped variables 
+* Global scoped and local scoped variables (case insensitive)
 * Comments (no inline comments!)
 
 Comming Soon: 
