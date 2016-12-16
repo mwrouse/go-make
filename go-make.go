@@ -73,7 +73,7 @@ func ExecSection(section string, sections map[string][]string) {
       // Show results of the command
       headline.Println(command)
       if err != nil {
-        color.Red("\t%s", string(output)) // Command had an error
+        ShowError(string(output)) // Command had an error
       } else if string(output) != ""{
         color.White("\t%s", string(output)) // No error (maybe)
       }
